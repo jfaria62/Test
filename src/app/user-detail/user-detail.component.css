@@ -1,0 +1,7 @@
+p {
+  border: 10px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
