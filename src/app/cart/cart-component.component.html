@@ -5,6 +5,8 @@
     <input type="text" [(ngModel)]= "newItem">
 
     <button class="btn" (click)="addItem()" [ngClass]="{'btn-danger': newItem !== '', 'btn-primary': newItem === ''}"> Add item</button>
+
+    <p class="bg-danger lead" *ngIf="newItem === ''">  Please Enter a Value</p>
   </div>
 
   <hr>
