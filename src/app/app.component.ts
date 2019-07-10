@@ -10,7 +10,7 @@ export class AppComponent {
   rootName = 'Jonny';
 
   rootItems = ['Apples', 'Bananas', 'Cherries'];
-  ItemAdded(newItem){
+  ItemAdded(newItem) {
     this.rootItems.push(newItem);
     console.log(this.rootItems);
   }
